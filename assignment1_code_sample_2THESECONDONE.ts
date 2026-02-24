@@ -62,5 +62,4 @@ function saveToDb(data: string) {
     const data = await getData();
     saveToDb(data);
     sendEmail('admin@example.com', 'User Input', userInput);
-
 })();
